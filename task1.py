@@ -2,7 +2,6 @@ from datetime import datetime
 
 #function calculates difference between todays date and specified date, in days
 def get_days_from_today(date):
-    
     today = datetime.today()
     date_obj = parse_date_str(date)
     if (date_obj):
